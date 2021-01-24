@@ -1,0 +1,156 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  .bg-steel {
+    background-color: #5f788a;
+  }
+  
+  .site-header .navbar-nav .nav-link {
+    color: grey;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: black;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 34px;
+    box-shadow: 0 10px 10px 10px rgba(85,85,255,0.1);
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    border-radius: 10px;
+    box-shadow: 0 0.3rem rgba(85, 213, 255, 0.4);
+  }
+
+  .btn:active{
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+  }
+  .special{
+    background-color: #00a3ba;
+    color: white !important;
+    margin: 0 5px;
+  }
+  .like-btn {
+    margin-bottom: 10px;
+  }
+
+  .btn-danger
+  {
+    box-shadow: 0 0.3rem rgba(235, 14, 7, 0.4);   
+  }
+
+  .btn-danger,.btn-primary
+  {
+      margin-bottom: 10px !important;
+  }
+
+  .btn-danger:hover,.btn-primary:hover
+  {
+      color: white !important;
+  }
+  .row {
+    margin-bottom: 20px;
+  }
+
+  input[type="text"].search{
+      width: 250px;
+      height: 35px;
+      border: none;
+  }
+
+  input[type=text]:focus.search{
+    border: none;
+    outline: none;
+  }
+
+  .comment{
+    display: block;   
+  }
+
+  .comment-txt{
+    width: 80%;
+    height: 150px;
+    margin: 10px 10px 0 10px; 
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgba(85,85,255,0.1);
+    border: none;
+  }
+
+  .comment-txt:focus{
+      outline: none;
+  }
+
+  .about-page{
+    font-size: 1.2rem;
+  }
+  .about-page li
+  {
+    margin-top: 5px;
+  }
